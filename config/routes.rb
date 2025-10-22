@@ -5,6 +5,5 @@ Rails.application.routes.draw do
   # ヘルスチェック用
   get "up" => "rails/health#show", as: :rails_health_check
 
-  # ルートは必要に応じて設定
   # root "posts#index"
 end
